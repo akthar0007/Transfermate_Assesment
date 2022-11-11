@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransfaerMateAssesment.API", "TransfaerMate_Assesment\TransfaerMateAssesment.API.csproj", "{121C11BD-6B08-4DCB-90C8-3BFDF7B761D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TranserMateAsssment.Core", "TranserMateAsssment.Core\TranserMateAsssment.Core.csproj", "{6086AB39-BAE8-45BA-9BD1-E20C71A2E6CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransfermateAssesment.Infrastructure", "TransfermateAssesment.Infrastructure\TransfermateAssesment.Infrastructure.csproj", "{2ED6DAD9-B1DA-4473-A7F8-E1C454401091}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3E290296-2FE6-4504-BC17-0FE29FAE9B2A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B33C9E24-1BCD-4ABE-B64E-04EB1D2F9345}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{52FF7CC8-D802-4FC6-BDB9-E781A8CC8335}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransfermateAssesment.Test", "TransfermateAssesment.Test\TransfermateAssesment.Test.csproj", "{242B2FB8-A14D-4F3E-85A8-4F443733C28D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{121C11BD-6B08-4DCB-90C8-3BFDF7B761D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{121C11BD-6B08-4DCB-90C8-3BFDF7B761D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{121C11BD-6B08-4DCB-90C8-3BFDF7B761D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{121C11BD-6B08-4DCB-90C8-3BFDF7B761D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6086AB39-BAE8-45BA-9BD1-E20C71A2E6CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6086AB39-BAE8-45BA-9BD1-E20C71A2E6CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6086AB39-BAE8-45BA-9BD1-E20C71A2E6CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6086AB39-BAE8-45BA-9BD1-E20C71A2E6CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ED6DAD9-B1DA-4473-A7F8-E1C454401091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ED6DAD9-B1DA-4473-A7F8-E1C454401091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ED6DAD9-B1DA-4473-A7F8-E1C454401091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ED6DAD9-B1DA-4473-A7F8-E1C454401091}.Release|Any CPU.Build.0 = Release|Any CPU
+		{242B2FB8-A14D-4F3E-85A8-4F443733C28D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{242B2FB8-A14D-4F3E-85A8-4F443733C28D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{242B2FB8-A14D-4F3E-85A8-4F443733C28D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{242B2FB8-A14D-4F3E-85A8-4F443733C28D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{121C11BD-6B08-4DCB-90C8-3BFDF7B761D6} = {B33C9E24-1BCD-4ABE-B64E-04EB1D2F9345}
+		{6086AB39-BAE8-45BA-9BD1-E20C71A2E6CD} = {B33C9E24-1BCD-4ABE-B64E-04EB1D2F9345}
+		{2ED6DAD9-B1DA-4473-A7F8-E1C454401091} = {B33C9E24-1BCD-4ABE-B64E-04EB1D2F9345}
+		{242B2FB8-A14D-4F3E-85A8-4F443733C28D} = {52FF7CC8-D802-4FC6-BDB9-E781A8CC8335}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE0D9A6D-325D-44F8-AA18-831F2B0D557C}
+	EndGlobalSection
+EndGlobal
